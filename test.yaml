@@ -1,6 +1,6 @@
 ---
   - name: nano_install
-    hosts: vms
+    hosts: VMs
     tasks:
       - name: nano installation
         apt:
