@@ -1,0 +1,8 @@
+---
+  - name: nano_install
+    hosts: vms
+    tasks:
+      - name: nano installation
+        apt:
+          name: nano
+          state: latest
